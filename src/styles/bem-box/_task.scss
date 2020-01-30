@@ -1,0 +1,76 @@
+.task {
+  // display: grid;
+  // grid-template-columns: 15% 70% 15%;
+  min-height: 160px;
+  width: 60%;
+  margin: 0 auto 25px;
+
+  // background-image: url(../images/task-view.svg);
+  // background-repeat: no-repeat;
+
+
+  /* Create a custom checkbox */
+
+
+  // &__checkbox-wrap {
+  //   display: block;
+  //   position: relative;
+  //   padding-left: 35px;
+  //   margin-bottom: 12px;
+  //   font-size: 22px;
+  //   -webkit-user-select: none;
+  //   -moz-user-select: none;
+  //   -ms-user-select: none;
+  //   user-select: none;
+  // }
+
+
+  // &__checkbox-wrap input {
+  //   position: absolute;
+  //   opacity: 0;
+  //   cursor: pointer;
+  //   height: 0;
+  //   width: 0;
+  // }
+
+  // &__custom-checkbox {
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   height: 25px;
+  //   width: 25px;
+  //   background-color: #eee;
+  //   cursor: pointer;
+  // }
+
+  // &__checkbox-wrap:hover input~&__custom-checkbox {
+  //   background-color: #ccc;
+  // }
+
+  // &__checkbox-wrap input:checked~&__custom-checkbox {
+  //   background-color: #2196F3;
+  // }
+
+  // &__custom-checkbox:after {
+  //   content: "";
+  //   position: absolute;
+  //   display: none;
+  // }
+
+  // &__checkbox-wrap input:checked~&__custom-checkbox:after {
+  //   display: block;
+  // }
+
+
+  // &__checkbox-wrap &__custom-checkbox:after {
+  //   left: 9px;
+  //   top: 5px;
+  //   width: 5px;
+  //   height: 10px;
+  //   border: solid white;
+  //   border-width: 0 3px 3px 0;
+  //   -webkit-transform: rotate(45deg);
+  //   -ms-transform: rotate(45deg);
+  //   transform: rotate(45deg);
+  // }
+}

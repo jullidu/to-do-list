@@ -1,3 +1,43 @@
-body {
-  background-color: blue;
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('../fonts/AvenirNext-Regular.woff') format('woff');
+  src: url('../fonts/AvenirNext-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'Avenir Next Demi Bold';
+  src: url('../fonts/AvenirNext-DemiBold.woff') format('woff');
+  src: url('../fonts/AvenirNext-DemiBold.ttf') format("truetype");
+}
+
+// variables
+
+$avenir-font: 'Avenir Next',
+sans-serif;
+$avenir-bold: 'Avenir Next Demi Bold',
+sans-serif;
+
+// import styles
+@import "bem-box/tasks-section";
+@import "bem-box/task-view";
+@import "bem-box/task";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  min-width: 1000px;
+  height: 100vh;
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+    url(../images/abstraction-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.section {
+  margin: 0 auto;
 }
