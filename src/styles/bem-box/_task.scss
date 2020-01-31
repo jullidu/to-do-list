@@ -2,13 +2,22 @@
   min-height: 160px;
   background-image: url(../images/task-view.svg);
   background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
   display: grid;
   grid-template-columns: 106px 1fr 114px;
   align-items: center;
 
+  @media (max-width: 595px) {
+    grid-template-columns: 1fr;
+    padding: 20px 0 40px;
+  }
+
   &_active {
     background-image: url(../images/task-view-active.svg);
     background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
   }
 
 
@@ -41,13 +50,27 @@
     cursor: pointer;
     justify-self: end;
     margin-right: 40px;
+
+    @media (max-width: 595px) {
+      justify-self: center;
+      margin: 0;
+    }
   }
 
   &__checkbox-wrap {
     margin-left: 50px;
+
+    @media (max-width: 595px) {
+      justify-self: center;
+      margin: 0;
+    }
   }
 
   &__text-box {
     padding: 15px 150px 15px 37px;
+
+    @media (max-width:850px) {
+      padding: 25px 25px 25px 37px;
+    }
   }
 }
