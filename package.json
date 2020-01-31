@@ -1,8 +1,8 @@
 {
-  "name": "test_anketa",
+  "name": "to-do-list",
   "version": "1.0.0",
   "description": "test",
-  "main": "test.js",
+  "main": "app.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production"
