@@ -32,13 +32,14 @@ sans-serif;
 }
 
 .wrapper {
-  min-width: 1000px;
-  height: 100vh;
+  max-width: 1920px;
+  height: 100%;
+  margin: 0 auto;
   background-image: linear-gradient(to top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
     url(../images/abstraction-bg.png);
-  // background-color: cornsilk;
+  padding: 78px 50px 83px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .section {

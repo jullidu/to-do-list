@@ -1,3 +1,56 @@
 .new-task {
   min-height: 240px;
+  position: relative;
+
+  &__elem-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1.5fr 1fr 1.5fr;
+    padding: 0 6px 0 84px;
+  }
+
+  &__title {
+    font-family: $avenir-bold;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.27px;
+    border: none;
+    border-bottom: 1px solid #b2b2b2;
+    outline: none;
+    background: transparent;
+
+  }
+
+  &__desc {
+    color: #b2b2b2;
+    font-family: $avenir-font;
+    font-size: 22px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+
+  &__add-button {
+    width: 229px;
+    height: 64px;
+    box-shadow: 0 4px 15px #99b8cd;
+    border-radius: 32px;
+    background-image: linear-gradient(-22.44deg, #5c8dff 0%, #2ae335 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    justify-self: end;
+    margin-right: 20px;
+  }
+
+  &__text-button {
+    color: #ffffff;
+    font-family: $avenir-bold;
+    font-size: 22px;
+    font-weight: 400;
+  }
 }

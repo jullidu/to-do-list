@@ -1,8 +1,6 @@
 .tasks-section {
   min-height: 600px;
   max-width: 980px;
-  border-bottom: 2px dashed #000000;
-  padding: 78px 0 44px 0;
 
   &__title {
     color: #000000;
@@ -16,5 +14,10 @@
   &__list {
     display: grid;
     grid-row-gap: 26px;
+  }
+
+  &__line {
+    width: 100%;
+    margin-top: 35px;
   }
 }

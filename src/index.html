@@ -75,19 +75,24 @@
 
         </div>
       </div>
-
+      <img src="<%=require('./images/Line.svg')%>" alt="task-view" class="tasks-section__line">
     </section>
+
+
+
     <section class="new-task-section section">
       <h3 class="new-task-section__title">Новая</h3>
-      <div class="new-task task">
+      <div class="new-task">
         <img src="<%=require('./images/task-view.svg')%>" alt="task-view" class="task__image">
 
-        <div class="task__elem-box">
-          <h2 class="new-task__title">Название здачи</h2>
-          <span class="new-task__desc">Описание задачи</span>
-          <div class="new-task__add">Добавить</div>
-          </divclass="task__elem-box">
+        <div class="new-task__elem-box">
+          <input type="text" placeholder="Название здачи" class="new-task__title"></input>
+          <input type="text" placeholder="Описание задачи" class="new-task__desc"></input>
+          <div class="new-task__add-button">
+            <span class="new-task__text-button">Добавить</span>
+          </div>
         </div>
+      </div>
 
     </section>
 
