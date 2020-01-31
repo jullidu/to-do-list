@@ -1,6 +1,6 @@
 import '../styles/style.scss';
-import taskView from '../images/task-view-active.svg';
+// import taskViewActive from '../images/task-view-active.svg';
 
-let backgroundTask = document.querySelector('#active-img')
+// let backgroundTaskActive = document.querySelector('#active-img')
 
-backgroundTask.innerHTML += `<img src=${taskView} alt="task-view-img" class="task-view__image">`
+// backgroundTaskActive.innerHTML += `<img src=${taskViewActive} alt="task-view-img" class="task-view__image">`

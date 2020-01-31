@@ -1,76 +1,64 @@
 .task {
-  // display: grid;
-  // grid-template-columns: 15% 70% 15%;
   min-height: 160px;
-  width: 60%;
-  margin: 0 auto 25px;
+  position: relative;
 
-  // background-image: url(../images/task-view.svg);
-  // background-repeat: no-repeat;
+  &__title {
+    color: #000000;
+    font-family: $avenir-bold;
+    font-size: 30px;
+    letter-spacing: 1.27px;
 
+    &_active {
+      color: #11b654;
+    }
+  }
 
-  /* Create a custom checkbox */
+  &__desc {
+    color: #000000;
+    font-family: $avenir-font;
+    font-size: 22px;
+    font-weight: 400;
+  }
 
+  &__delete {
+    width: 74px;
+    height: 74px;
+    border: 1px solid #f63d72;
+    border-radius: 50%;
+    background-image: url(../images/delete.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    justify-self: end;
+    margin-right: 40px;
+  }
 
-  // &__checkbox-wrap {
-  //   display: block;
-  //   position: relative;
-  //   padding-left: 35px;
-  //   margin-bottom: 12px;
-  //   font-size: 22px;
-  //   -webkit-user-select: none;
-  //   -moz-user-select: none;
-  //   -ms-user-select: none;
-  //   user-select: none;
-  // }
+  &__elem-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 106px 1fr 114px;
 
-
-  // &__checkbox-wrap input {
-  //   position: absolute;
-  //   opacity: 0;
-  //   cursor: pointer;
-  //   height: 0;
-  //   width: 0;
-  // }
-
-  // &__custom-checkbox {
-  //   position: absolute;
-  //   top: 0;
-  //   left: 0;
-  //   height: 25px;
-  //   width: 25px;
-  //   background-color: #eee;
-  //   cursor: pointer;
-  // }
-
-  // &__checkbox-wrap:hover input~&__custom-checkbox {
-  //   background-color: #ccc;
-  // }
-
-  // &__checkbox-wrap input:checked~&__custom-checkbox {
-  //   background-color: #2196F3;
-  // }
-
-  // &__custom-checkbox:after {
-  //   content: "";
-  //   position: absolute;
-  //   display: none;
-  // }
-
-  // &__checkbox-wrap input:checked~&__custom-checkbox:after {
-  //   display: block;
-  // }
+    align-items: center;
+  }
 
 
-  // &__checkbox-wrap &__custom-checkbox:after {
-  //   left: 9px;
-  //   top: 5px;
-  //   width: 5px;
-  //   height: 10px;
-  //   border: solid white;
-  //   border-width: 0 3px 3px 0;
-  //   -webkit-transform: rotate(45deg);
-  //   -ms-transform: rotate(45deg);
-  //   transform: rotate(45deg);
-  // }
+  &__image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 30px;
+  }
+
+  &__checkbox-wrap {
+    margin-left: 50px;
+  }
+
+  &__text-box {
+    padding: 0 150px 0 37px;
+  }
+
+
+
 }

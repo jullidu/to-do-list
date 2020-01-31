@@ -1,0 +1,11 @@
+.new-task-section {
+  max-width: 980px;
+
+  &__title {
+    color: #000000;
+    font-family: $avenir-bold;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+}

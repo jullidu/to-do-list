@@ -1,0 +1,65 @@
+  // custom checkbox
+  .styled-checkbox {
+    position: absolute; // take it out of document flow
+    opacity: 0; // hide it
+
+    &+label {
+      position: relative;
+      cursor: pointer;
+      padding: 0;
+    }
+
+    // Box.
+    &+label:before {
+      content: '';
+      display: inline-block;
+      vertical-align: text-top;
+      width: 56px;
+      height: 56px;
+      box-shadow: 0 5px 15px rgba(20, 188, 92, 0.5);
+      border-radius: 16px;
+      background: linear-gradient(-211.95deg, #21d881 0%, #0eaf4a 100%);
+
+    }
+
+    // Box hover
+    &:hover+label:before {
+      background: #1bcb70;
+    }
+
+    // Box focus
+    &:focus+label:before {
+      box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+    }
+
+    // Box checked
+    &:checked+label:before {
+      background: #1bcb70;
+    }
+
+    // Disabled state label.
+    &:disabled+label {
+      color: #b8b8b8;
+      cursor: auto;
+    }
+
+    // Disabled box.
+    &:disabled+label:before {
+      box-shadow: none;
+      background: #ddd;
+    }
+
+    // Checkmark. Could be replaced with an image
+    &:checked+label:after {
+      content: '';
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      top: 15px;
+      background-image: url(../images/Check.png);
+      width: 20px;
+      height: 20px;
+    }
+  }

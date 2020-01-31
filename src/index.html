@@ -13,62 +13,81 @@
   <div class="wrapper">
     <section class="tasks-section section">
       <h1 class="tasks-section__title">Список</h1>
+
       <div class="tasks-section__list">
 
+        <div class="task">
+          <img src="<%=require('./images/task-view-active.svg')%>" alt="task-view-active" class="task__image">
 
-        <div class="task task_active task-view" id="active-img">
-          <div class="task__checkbox-wrap">
-            <input type="checkbox" checked="checked" class="task__checkbox">
-            <span class="task__custom-checkbox"></span>
+          <div class="task__elem-box">
+            <div class="task__checkbox-wrap">
+              <input type="checkbox" checked class="styled-checkbox" id="styled-checkbox-1">
+              <label for="styled-checkbox-1"></label>
+            </div>
+            <div class="task__text-box">
+              <h2 class="task__title task__title_active">Задача</h2>
+              <span class="task__desc">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает
+                сосредоточиться.</span>
+
+            </div>
+            <div class="task__delete"></div>
           </div>
-
-          <div class="task__text-box">
-            <h2 class="task__title task__title_active">Задача</h2>
-            <span class="task__desc">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает
-              сосредоточиться.</span>
-
-          </div>
-          <div class="task__delete"></div>
 
 
         </div>
 
+        <div class="task">
+          <img src="<%=require('./images/task-view.svg')%>" alt="task-view" class="task__image">
 
-        <div class="task task-view" id="origin-img">
-          <div class="task__checkbox-wrap">
-            <input type="checkbox" class="task__checkbox">
-            <span class="task__custom-checkbox"></span>
+          <div class="task__elem-box">
+            <div class="task__checkbox-wrap">
+              <input type="checkbox" class="styled-checkbox" id="styled-checkbox-2">
+              <label for="styled-checkbox-2"></label>
+            </div>
+            <div class="task__text-box">
+              <h2 class="task__title">Задача</h2>
+              <span class="task__desc">Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда
+                приемлемые.</span>
+
+            </div>
+            <div class="task__delete"></div>
           </div>
-          <div class="task__text-box">
-            <h2 class="task__title">Задача</h2>
-            <span class="task__desc">Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда
-              приемлемые.</span>
-          </div>
-          <div class="task__delete"></div>
+
 
         </div>
 
-        <div class="task task-view " id="origin-img">
-          <div class="task__checkbox-wrap">
-            <input type="checkbox" class="task__checkbox">
-            <span class="task__custom-checkbox"></span>
+        <div class="task">
+          <img src="<%=require('./images/task-view.svg')%>" alt="task-view" class="task__image">
+
+          <div class="task__elem-box">
+            <div class="task__checkbox-wrap">
+              <input type="checkbox" class="styled-checkbox" id="styled-checkbox-3">
+              <label for="styled-checkbox-3"></label>
+            </div>
+            <div class="task__text-box">
+              <h2 class="task__title">Задача</h2>
+              <span class="task__desc">Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML.</span>
+
+            </div>
+            <div class="task__delete"></div>
           </div>
-          <div class="task__text-box">
-            <h2 class="task__title ">Задача</h2>
-            <span class="task__desc">Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML.</span>
-          </div>
-          <div class="task__delete"></div>
+
+
         </div>
       </div>
 
     </section>
     <section class="new-task-section section">
-      <h3 class="new-task-section__title">Новая задача</h3>
-      <div class="new-task task-view "id="origin-img">
-        <h2 class="new-task__title">Название здачи</h2>
-        <span class="new-task__desc">Описание задачи</span>
-        <div class="new-task__add">Добавить</div>
-      </div>
+      <h3 class="new-task-section__title">Новая</h3>
+      <div class="new-task task">
+        <img src="<%=require('./images/task-view.svg')%>" alt="task-view" class="task__image">
+
+        <div class="task__elem-box">
+          <h2 class="new-task__title">Название здачи</h2>
+          <span class="new-task__desc">Описание задачи</span>
+          <div class="new-task__add">Добавить</div>
+          </divclass="task__elem-box">
+        </div>
 
     </section>
 

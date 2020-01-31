@@ -1,11 +1,20 @@
 .tasks-section {
   min-height: 600px;
+  max-width: 980px;
+  border-bottom: 2px dashed #000000;
+  padding: 78px 0 44px 0;
 
   &__title {
     color: #000000;
     font-family: $avenir-font;
     font-size: 44px;
-    font-weight: 500;
     text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  &__list {
+    display: grid;
+    grid-row-gap: 26px;
   }
 }

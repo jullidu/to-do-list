@@ -1,1 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1062" height="242" viewBox="0 0 1062 242"><defs><mask id="pj61b" width="2" height="2" x="-1" y="-1"><path fill="#fff" d="M41 32h980v160H41z"/><path d="M121 32h860c22.12 0 40 17.88 40 40v80c0 22.12-17.88 40-40 40H81c-22.12 0-40-17.88-40-40V72l80-40z"/></mask><filter id="pj61a" width="1100" height="289" x="-19" y="-28" filterUnits="userSpaceOnUse"><feOffset dy="9" in="SourceGraphic" result="FeOffset1046Out"/><feGaussianBlur in="FeOffset1046Out" result="FeGaussianBlur1047Out" stdDeviation="20 20"/></filter><clipPath id="pj61c"><path fill="#fff" d="M121 32h860c22.12 0 40 17.88 40 40v80c0 22.12-17.88 40-40 40H81c-22.12 0-40-17.88-40-40V72l80-40z"/></clipPath></defs><g><g><g filter="url(#pj61a)"><path fill="none" d="M121 32h860c22.12 0 40 17.88 40 40v80c0 22.12-17.88 40-40 40H81c-22.12 0-40-17.88-40-40V72l80-40z" mask="url(&quot;#pj61b&quot;)"/><path fill="#00dd76" fill-opacity=".2" d="M121 32h860c22.12 0 40 17.88 40 40v80c0 22.12-17.88 40-40 40H81c-22.12 0-40-17.88-40-40V72l80-40z"/></g><path fill="#fff" d="M121 32h860c22.12 0 40 17.88 40 40v80c0 22.12-17.88 40-40 40H81c-22.12 0-40-17.88-40-40V72l80-40z"/><path fill="none" stroke="#21d881" stroke-miterlimit="50" stroke-width="6" d="M121 32v0h860c22.12 0 40 17.88 40 40v80c0 22.12-17.88 40-40 40H81c-22.12 0-40-17.88-40-40V72v0l80-40v0z" clip-path="url(&quot;#pj61c&quot;)"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="39 30 982 165" preserveAspectRatio="none">
+<defs>
+<mask id="pj61b" width="2" height="2" x="-1" y="-1"><path fill="#fff" d="M41 32h980v160H41z"/>
+<path d="M121 32h860c22.12 0 40 17.88 40 40v80c0 22.12-17.88 40-40 40H81c-22.12 0-40-17.88-40-40V72l80-40z"/>
+</mask>
+<!-- <filter id="pj61a" x="-19" y="-28" filterUnits="userSpaceOnUse"><feOffset dy="9" in="BackgroundImage" result="FeOffset1046Out"/>
+<feGaussianBlur in="FeOffset1046Out" result="FeGaussianBlur1047Out" stdDeviation="20 20"/></filter> -->
+
+<clipPath id="pj61c"><path fill="#fff" d="M121 32h860c22.12 0 40 17.88 40 40v80c0 22.12-17.88 40-40 40H81c-22.12 0-40-17.88-40-40V72l80-40z"/></clipPath>
+</defs>
+<g>
+<g>
+<g filter="url(#pj61a)"><path fill="none" d="M121 32h860c22.12 0 40 17.88 40 40v80c0 22.12-17.88 40-40 40H81c-22.12 0-40-17.88-40-40V72l80-40z" mask="url(&quot;#pj61b&quot;)"/>
+<path fill="#00dd76" fill-opacity=".2" d="M121 32h860c22.12 0 40 17.88 40 40v80c0 22.12-17.88 40-40 40H81c-22.12 0-40-17.88-40-40V72l80-40z"/>
+</g>
+<path fill="#fff" d="M121 32h860c22.12 0 40 17.88 40 40v80c0 22.12-17.88 40-40 40H81c-22.12 0-40-17.88-40-40V72l80-40z"/>
+<path fill="none" stroke="#21d881" stroke-miterlimit="50" stroke-width="6" d="M121 32v0h860c22.12 0 40 17.88 40 40v80c0 22.12-17.88 40-40 40H81c-22.12 0-40-17.88-40-40V72v0l80-40v0z" clip-path="url(&quot;#pj61c&quot;)"/>
+</g>
+</g>
+</svg>

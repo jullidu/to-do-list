@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Avenir Next';
-  src: url('../fonts/AvenirNext-Regular.woff') format('woff');
-  src: url('../fonts/AvenirNext-Regular.ttf') format("truetype");
+  src: url('../fonts/AvenirNextCyr-Regular.woff') format('woff');
+  src: url('../fonts/AvenirNextCyr-Regular.ttf') format("truetype");
 }
 
 @font-face {
   font-family: 'Avenir Next Demi Bold';
-  src: url('../fonts/AvenirNext-DemiBold.woff') format('woff');
-  src: url('../fonts/AvenirNext-DemiBold.ttf') format("truetype");
+  src: url('../fonts/AvenirNextCyr-Bold.woff') format('woff');
+  src: url('../fonts/AvenirNextCyr-Bold.ttf') format("truetype");
 }
 
 // variables
@@ -19,8 +19,10 @@ sans-serif;
 
 // import styles
 @import "bem-box/tasks-section";
-@import "bem-box/task-view";
+@import "bem-box/new-task-section";
 @import "bem-box/task";
+@import "bem-box/new-task";
+@import "bem-box/styled-checkbox";
 
 
 * {
@@ -34,6 +36,7 @@ sans-serif;
   height: 100vh;
   background-image: linear-gradient(to top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
     url(../images/abstraction-bg.png);
+  // background-color: cornsilk;
   background-repeat: no-repeat;
   background-size: contain;
 }
