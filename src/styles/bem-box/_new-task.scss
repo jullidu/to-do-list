@@ -1,15 +1,11 @@
 .new-task {
   min-height: 240px;
-  position: relative;
+  display: grid;
+  grid-template-rows: 1.5fr 1fr 1.5fr;
+  grid-template-columns: 1fr;
+  align-items: inherit;
+  padding: 0 6px 0 84px;
 
-  &__elem-box {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-rows: 1.5fr 1fr 1.5fr;
-    padding: 0 6px 0 84px;
-  }
 
   &__title {
     font-family: $avenir-bold;
