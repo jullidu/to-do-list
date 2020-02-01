@@ -40,6 +40,11 @@ sans-serif;
   padding: 78px 50px 83px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+
+  @media (max-width: 768px) {
+    padding: 50px 20px;
+  }
 }
 
 .section {
