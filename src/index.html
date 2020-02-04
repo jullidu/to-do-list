@@ -15,13 +15,13 @@
     <section class="tasks-section section">
       <h1 class="tasks-section__title">Список</h1>
       <div class="tasks-section__list">
-        <div class="task task_active">
+        <div class="task task_active" id="task">
           <div class="task__checkbox-wrap">
             <input type="checkbox" checked class="styled-checkbox" id="styled-checkbox-1">
             <label for="styled-checkbox-1"></label>
           </div>
           <div class="task__text-box">
-            <h2 class="task__title task__title_active">Задача</h2>
+            <h2 class="task__title task__title_active" id="taskTitle">Задача</h2>
             <span class="task__desc">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает
               сосредоточиться.</span>
           </div>
@@ -59,9 +59,9 @@
     <section class="new-task-section section">
       <h3 class="new-task-section__title">Новая</h3>
       <div class="new-task">
-        <input type="text" placeholder="Название здачи" class="new-task__title">
-        <textarea placeholder="Описание задачи" class="new-task__desc"></textarea>
-        <div class="new-task__add-button">
+        <input type="text" placeholder="Название здачи" class="new-task__title" id="newTaskTitle">
+        <textarea placeholder="Описание задачи" class="new-task__desc" id="newDesc"></textarea>
+        <div class="new-task__add-button" id="add">
           <span class="new-task__text-button">Добавить</span>
         </div>
       </div>
