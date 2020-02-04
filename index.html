@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>To Do List</title>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <section class="tasks-section section">
+      <h1 class="tasks-section__title">Список</h1>
+      <div class="tasks-section__list">
+        <div class="task task_active" id="task">
+          <div class="task__checkbox-wrap">
+            <input type="checkbox" checked class="styled-checkbox" id="styled-checkbox-1">
+            <label for="styled-checkbox-1"></label>
+          </div>
+          <div class="task__text-box">
+            <h2 class="task__title task__title_active" id="taskTitle">Задача</h2>
+            <span class="task__desc">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает
+              сосредоточиться.</span>
+          </div>
+          <div class="task__delete"></div>
+        </div>
+
+        <div class="task">
+          <div class="task__checkbox-wrap">
+            <input type="checkbox" class="styled-checkbox" id="styled-checkbox-2">
+            <label for="styled-checkbox-2"></label>
+          </div>
+          <div class="task__text-box">
+            <h2 class="task__title">Задача</h2>
+            <span class="task__desc">Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда
+              приемлемые.</span>
+          </div>
+          <div class="task__delete"></div>
+        </div>
+
+        <div class="task">
+          <div class="task__checkbox-wrap">
+            <input type="checkbox" class="styled-checkbox" id="styled-checkbox-3">
+            <label for="styled-checkbox-3"></label>
+          </div>
+          <div class="task__text-box">
+            <h2 class="task__title">Задача</h2>
+            <span class="task__desc">Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML.</span>
+          </div>
+          <div class="task__delete"></div>
+        </div>
+      </div>
+      <img src="images/Line.svg" alt="task-view" class="tasks-section__line">
+    </section>
+
+    <section class="new-task-section section">
+      <h3 class="new-task-section__title">Новая</h3>
+      <div class="new-task">
+        <input type="text" placeholder="Название здачи" class="new-task__title" id="newTaskTitle">
+        <textarea placeholder="Описание задачи" class="new-task__desc" id="newDesc"></textarea>
+        <div class="new-task__add-button" id="add">
+          <span class="new-task__text-button">Добавить</span>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+<script type="text/javascript" src="bundle.1bd6a3b2c16909fb5f35.js"></script></body>
+
+</html>
